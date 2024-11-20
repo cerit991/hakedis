@@ -1,0 +1,77 @@
+[
+  {
+    "name": "halil",
+    "score": "10",
+    "daysWorked": 0,
+    "earningsByMonth": {
+      "Kasım 2024": "18646.29",
+      "Mayıs 2024": "1972.41",
+      "Nisan 2024": "1504.94"
+    },
+    "daysWorkedByMonth": {
+      "Kasım 2024": 5,
+      "Mayıs 2024": 1,
+      "Nisan 2024": 1
+    }
+  },
+  {
+    "name": "ener",
+    "score": "10",
+    "daysWorked": 0,
+    "earningsByMonth": {
+      "Kasım 2024": "13443.70",
+      "Mayıs 2024": "1972.41",
+      "Nisan 2024": "1504.94"
+    },
+    "daysWorkedByMonth": {
+      "Kasım 2024": 6,
+      "Mayıs 2024": 1,
+      "Nisan 2024": 1
+    }
+  },
+  {
+    "name": "mehmet",
+    "score": "4",
+    "daysWorked": 0,
+    "earningsByMonth": {
+      "Kasım 2024": "5377.47",
+      "Mayıs 2024": "788.96",
+      "Nisan 2024": "601.98"
+    },
+    "daysWorkedByMonth": {
+      "Kasım 2024": 6,
+      "Mayıs 2024": 1,
+      "Nisan 2024": 1
+    }
+  },
+  {
+    "name": "ibrahim",
+    "score": "10",
+    "daysWorked": 0,
+    "earningsByMonth": {
+      "Kasım 2024": "13443.70",
+      "Mayıs 2024": "1972.41",
+      "Nisan 2024": "1504.94"
+    },
+    "daysWorkedByMonth": {
+      "Kasım 2024": 6,
+      "Mayıs 2024": 1,
+      "Nisan 2024": 1
+    }
+  },
+  {
+    "name": "deniz",
+    "score": "5",
+    "daysWorked": 0,
+    "earningsByMonth": {
+      "Kasım 2024": "6721.86",
+      "Mayıs 2024": "986.20",
+      "Nisan 2024": "752.47"
+    },
+    "daysWorkedByMonth": {
+      "Kasım 2024": 6,
+      "Mayıs 2024": 1,
+      "Nisan 2024": 1
+    }
+  }
+]

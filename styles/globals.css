@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply Roboto font globally */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* NProgress styles */
+#nprogress .bar {
+  background: #4299e1; /* Tailwind's blue-500 */
+  height: 4px;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #4299e1, 0 0 5px #4299e1;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #4299e1;
+  border-left-color: #4299e1;
+}
+
+/* Blur transition styles */
+.transition-blur {
+  transition: filter 0.3s ease;
+  filter: blur(5px);
+}
+
+/* Loading bar styles */
+.loading-bar {
+  width: 100%;
+  height: 4px;
+  background: #f3f3f3;
+  position: relative;
+  overflow: hidden;
+}
+
+.loading-bar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #4299e1;
+  animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* ...existing code... */
